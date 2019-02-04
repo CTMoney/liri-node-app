@@ -28,10 +28,15 @@ inquirer
       inquirer
         .prompt(options.spotifyQuery)
         .then(function (spotifyResponse) {
-
-          axios
-            .get()
-            .then(function (err, data) { });
+          spotify
+            .search({ type: 'track', query: spotifyResponse.spotify_song }, function (err, data) {
+              if(err){throw err}
+              let song = data.tracks.items[0];
+              console.log(song.artists[0].name);
+              console.log(song.album.name);
+              console.log(song.name);
+              console.log(song.preview_url);
+            });
         });
     }
 
@@ -60,7 +65,9 @@ function bitCall() {
         .get(`https://rest.bandsintown.com/artists/${concertResponse.concert_artist}/events?app_id=codingbootcamp`)
         .then(function (bitResponse, err) {
           if (err) { throw err }
+
           clear();
+
           figlet('              * - _ - Venue Info - _ - *', function (err, data) {
             if (err) { throw err }
             console.log(data, "\n\n\n\n\n\n\n");
