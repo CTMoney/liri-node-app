@@ -20,25 +20,7 @@ inquirer
   .then(function (response) {
 
     if (response.program_select == "Concert This!") {
-
-      inquirer
-        .prompt(concertQuery)
-        .then(function (concertResponse) {
-          axios
-            .get(`https://rest.bandsintown.com/artists/${concertResponse.concert_artist}/events?app_id=codingbootcamp`)
-            .then(function (bitResponse, err) {
-                if(err){throw err}
-                let bit = bitResponse.data[0];
-                let { venue, datetime, url} = bit;
-                let {name, city, country} = venue;
-                let time = moment(datetime, "YYYY-MM-DDTHH:mm:ss").format("LLLL")
-                console.log(`${name}\n${city}, ${country}`);
-                console.log(time);
-                console.log(url);
-                
-                
-            });
-        });
+      bitCall();
     }
 
     else if (response.program_select == "Spotify This!") {
@@ -69,3 +51,36 @@ inquirer
 
     }
   });
+
+function bitCall() {
+  inquirer
+    .prompt(concertQuery)
+    .then(function (concertResponse) {
+      axios
+        .get(`https://rest.bandsintown.com/artists/${concertResponse.concert_artist}/events?app_id=codingbootcamp`)
+        .then(function (bitResponse, err) {
+          if (err) { throw err }
+          clear();
+          figlet('              * - _ - Venue Info - _ - *', function (err, data) {
+            if (err) { throw err }
+            console.log(data, "\n\n\n\n\n\n\n");
+          });
+
+          setTimeout(() => {
+            for (let i = 0; i < 4; i++) {
+
+              let bit = bitResponse.data[i];
+              let { venue, datetime, url } = bit;
+              let { name, city, country } = venue;
+              let time = moment(datetime, "YYYY-MM-DDTHH:mm:ss").format("LLLL")
+              console.log(`\n  Venue: ${name}\n  Location: ${city}, ${country}\n  On: ${time}\n  ${url}\n`);
+              console.log("    ---------------------------------------------------------------------------------------------------------------");
+
+            }
+          }, 750)
+
+
+
+        });
+    });
+}
