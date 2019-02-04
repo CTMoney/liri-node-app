@@ -32,7 +32,6 @@ inquirer
                 let { venue, datetime, url} = bit;
                 let {name, city, country} = venue;
                 let time = moment(datetime, "YYYY-MM-DDTHH:mm:ss").format("LLLL")
-
                 console.log(`${name}\n${city}, ${country}`);
                 console.log(time);
                 console.log(url);
@@ -58,7 +57,7 @@ inquirer
 
       inquirer
         .prompt(options.movieQuery)
-        .then(function (spotifyResponse) {
+        .then(function (movieResponse) {
 
           axios
             .get()

@@ -42,11 +42,3 @@ module.exports = {
   spotifyQuery,
   movieQuery
 };
-
-// * `concert-this`
-
-// * `spotify-this-song`
-
-// * `movie-this`
-
-// * `do-what-it-says`
