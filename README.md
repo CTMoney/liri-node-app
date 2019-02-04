@@ -8,9 +8,9 @@
       - [ ] Be visually clear about what its doing with no explanation required
 
    2. I want *Concert This!* to:
-      - [ ] Prompt using inquirer to get an artist from user     
-      - [ ] Give the following data to user **Venue, Venue Location, Date, Time** formatted for easy viewing
-      - [ ] Be called as a *function*
+      - [x] Prompt using inquirer to get an artist from user     
+      - [x] Give the following data to user **Venue, Venue Location, Date, Time** formatted for easy viewing
+      - [x] Be called as a *function*
 
    3. I want *Spotify This!* to:
       - [ ] Prompt using inquirer to get a song name from user
