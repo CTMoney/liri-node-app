@@ -13,14 +13,14 @@
       - [x] Be called as a *function*
 
    3. I want *Spotify This!* to:
-      - [ ] Prompt using inquirer to get a song name from user
+      - [x] Prompt using inquirer to get a song name from user
       - [ ] Give the following data to user **Artist, Song Name, Preview Link, Album** formatted for easy viewing 
-      - [ ] Be called as a *function*
+      - [x] Be called as a *function*
 
    4. I want *Movie This!* to:
-      - [ ] Prompt using inquirer to get a movie name from user
+      - [x] Prompt using inquirer to get a movie name from user
       - [ ] Give the following data to user **Title, Release, Rating, Producation location, Language, Summary, Actors** formatted for easy viewing
-      - [ ] Be called as a *function*
+      - [x] Be called as a *function*
 
    5. I want *Liri CLI* to:
       - [ ] Be aesthetically pleasing
