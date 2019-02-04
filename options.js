@@ -1,4 +1,4 @@
-options_primary = [
+primary = [
   {
     type: "list",
     message: "Select a program!",
@@ -12,7 +12,36 @@ options_primary = [
   }
 ];
 
-module.exports = options_primary;
+concertQuery = [
+  {
+    type: "input",
+    message: "Please enter an artist / band name",
+    name: "concert_artist"
+  }
+]
+
+spotifyQuery = [
+  {
+    type: "input",
+    message: "Please enter a song name",
+    name: "spotify_song"
+  }
+]
+
+movieQuery = [
+  {
+    type: "input",
+    message: "Please enter a movie name",
+    name: "movie_title"
+  }
+]
+
+module.exports = {
+  primary,
+  concertQuery,
+  spotifyQuery,
+  movieQuery
+};
 
 // * `concert-this`
 
