@@ -15,7 +15,7 @@ primary = [
 concertQuery = [
   {
     type: "input",
-    message: "Please enter an artist / band name",
+    message: "Please enter an artist / band name to receive venue information!",
     name: "concert_artist"
   }
 ]

@@ -4,8 +4,8 @@
  # Current Thoughts / Planning / TODO
 
    1. I want *Do What It Says* to:
-      - [ ] Create an animation for randomly selecting one of the other three options
-      - [ ] Be visually clear about what its doing with no explanation required
+      - [x] Create an animation for randomly selecting one of the other three options
+      - [x] Be visually clear about what its doing with no explanation required
 
    2. I want *Concert This!* to:
       - [x] Prompt using inquirer to get an artist from user     
@@ -19,7 +19,7 @@
 
    4. I want *Movie This!* to:
       - [x] Prompt using inquirer to get a movie name from user
-      - [ ] Give the following data to user **Title, Release, Rating, Producation location, Language, Summary, Actors** formatted for easy viewing
+      - [x] Give the following data to user **Title, Release, Rating, Producation location, Language, Summary, Actors** formatted for easy viewing
       - [x] Be called as a *function*
 
    5. I want *Liri CLI* to:
@@ -32,7 +32,8 @@
 
 # Issues
 
-    Still in basic development will re-visit near completion
+    very wet code for Do What It Says
+    does not filter out empty calls
 
 -------------------------------
 
@@ -42,31 +43,31 @@
 
 ![First Call | image]("#") *image*
 
-  * Summarized Description
+  * Gives a list of options to choose from
 
 ![First Call | gif]("#") *gif*
 
-  * Full Description
+  * Not much more to it
   
 ### Concert This!
 
 ![Concert This! image]("#") *image*
 
-  * Summarized Description
+  * Shows Venue Information based on input
 
 ![Concert This! gif]("#") *gif*
 
-  * Full Description
+  * Clears the terminal and then pushes ascii art + venue data formatted
 
 ### Movie This!
 
 ![Movie This! image]("#") *image*
 
-  * Summarized Description
+  * Shows Movie Information based on input
 
 ![Movie This! gif]("#") *gif*
 
-  * Full Description
+  * Clears the terminal and then pushes ascii art + movie data formatted
   
 ### Do What It Says!
 
