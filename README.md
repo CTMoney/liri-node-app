@@ -58,6 +58,16 @@
 ![Concert This! gif]("#") *gif*
 
   * Clears the terminal and then pushes ascii art + venue data formatted
+  
+ ### Spotify This!
+
+![Spotify This! image]("#") *image*
+
+ * Summarized Description
+
+![Spotify This! gif]("#") *gif*
+
+ * Full Description
 
 ### Movie This!
 
