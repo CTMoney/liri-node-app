@@ -29,7 +29,7 @@
       - [ ] Be aesthetically pleasing
       - [ ] Be as readable as is possible 
       - [ ] Be **dry** like a **desert**
-      - [ ] Use exports & destructuring liberally
+      - [x] Use exports & destructuring liberally
     
 ------------------------------
 

@@ -6,7 +6,7 @@ primary = [
       "Concert This!",
       "Spotify This!",
       "Movie This!",
-      "Do what It Says"
+      "Do What It Says"
     ],
     name: "program_select"
   }
