@@ -123,7 +123,7 @@ function omdbCall() {
 function dwisCall() {
 
   clear();
-  let randomChoice = Math.floor(Math.random() * 3) + 1;
+  let randomChoice = Math.floor(Math.random() * 3);
   let programArray = ["Concert This Selected!", "Spotify This Selected!", "Movie This Selected!"]
   setTimeout(() => {
     figlet('3', function(err, data) {
