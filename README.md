@@ -45,7 +45,7 @@
 
 ### First Call
 
-![First Call | image]("https://puu.sh/CJH4Z/c16a784ea7.png") *image*
+![First Call | image](https://puu.sh/CJH4Z/c16a784ea7.png) *image*
 
   * Gives a list of options to choose from
 
@@ -55,7 +55,7 @@
   
 ### Concert This!
 
-![Concert This! image]("https://puu.sh/CJHdp/0d6cd6cc0a.png") *image*
+![Concert This! image](https://puu.sh/CJHdp/0d6cd6cc0a.png) *image*
 
   * Shows Venue Information based on input
 
@@ -65,7 +65,7 @@
   
  ### Spotify This!
 
-![Spotify This! image]("https://puu.sh/CJHuL/1eee167fe3.png") *image*
+![Spotify This! image](https://puu.sh/CJHuL/1eee167fe3.png) *image*
 
  * Shows Song Information based on input
 
@@ -75,7 +75,7 @@
 
 ### Movie This!
 
-![Movie This! image]("https://puu.sh/CJHo1/38fdf91a9b.png") *image*
+![Movie This! image](https://puu.sh/CJHo1/38fdf91a9b.png) *image*
 
   * Shows Movie Information based on input
 
@@ -85,7 +85,7 @@
   
 ### Do What It Says!
 
-![Do What It Says! image]("https://puu.sh/CJHt8/d12f638d9f.png") *image*
+![Do What It Says! image](https://puu.sh/CJHt8/d12f638d9f.png) *image*
 
   * Randomly chooses another option
 
